@@ -13,8 +13,8 @@ default: &default
 development:
   <<: *default
   database: test_spree
-  user: root
-  password: 12345678
+  username: postgres
+  password: root
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,6 +22,8 @@ development:
 test:
   <<: *default
   database: test_test_spree
+  username: postgres
+  password: root
 
 production:
   <<: *default
