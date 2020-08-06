@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/freddyhto/spree_report_out_of_stock.git
-  revision: bb9111ab2f0f1638ff2847aff9b03ed971fa6b23
+  revision: 57e722a43b95732535c7313374c68579b98f34ef
   specs:
     spree_report_out_of_stock (0.0.1.alpha)
       spree_api (>= 3.2.0, < 5.0)
@@ -50,7 +50,7 @@ GEM
     activejob (6.0.3.2)
       activesupport (= 6.0.3.2)
       globalid (>= 0.3.6)
-    activemerchant (1.110.0)
+    activemerchant (1.111.0)
       activesupport (>= 4.2)
       builder (>= 2.1.2, < 4.0.0)
       i18n (>= 0.6.9)
@@ -197,7 +197,7 @@ GEM
       activerecord (>= 5.2.1)
     polyglot (0.3.5)
     popper_js (1.16.0)
-    premailer (1.12.1)
+    premailer (1.13.1)
       addressable
       css_parser (>= 1.6.0)
       htmlentities (>= 4.0.0)
