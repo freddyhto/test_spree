@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/freddyhto/spree_report_out_of_stock.git
+  revision: bb9111ab2f0f1638ff2847aff9b03ed971fa6b23
+  specs:
+    spree_report_out_of_stock (0.0.1.alpha)
+      spree_api (>= 3.2.0, < 5.0)
+      spree_backend (>= 3.2.0, < 5.0)
+      spree_core (>= 3.2.0, < 5.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -401,6 +411,7 @@ DEPENDENCIES
   spree (~> 4.1)
   spree_auth_devise (~> 4.1)
   spree_gateway (~> 3.7)
+  spree_report_out_of_stock!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
